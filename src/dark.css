@@ -1,0 +1,136 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    max-width: 100vw;
+    color: white;
+    background-color: Black;
+  }
+  
+  html{
+    
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+  }
+  .header{
+     margin: auto;
+     padding: 10px 20px;
+     box-shadow: 0 0 2px 0 rgb(114, 114, 114);
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     
+  }
+  
+  .header h3{
+    /* font-size: 22px; */
+    color: #5f6368;
+    margin-left: 10px;
+  }
+  
+  form{
+  position: relative;
+  width: 600px;
+  margin:  32px auto 50px auto;
+  background: #fff;
+  padding: 7px;
+  box-shadow: 0 1px 7px rgb(128,128,128);
+  border-radius: 6px;
+  height:auto;
+  }
+  form input , textarea{
+    width: 100%;
+    border: none;
+    padding: 4px 10px;  
+    outline: none;
+    font-size: 1rem;  
+    overflow: hidden;
+    max-width: 100%;
+  }
+  
+  form input{
+    margin-bottom: 20px;
+    resize: none;
+  }
+  .note{
+    width: 240px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 5px rgb(175,175,175);
+    margin: 16px;
+    padding: 10px;
+    float: left;
+    margin-left: 30px;
+    /* margin-right:0px; */
+  }
+  .note h1{
+  
+    font-size: 1rem;
+    margin-bottom: 6px;
+  }
+  .note p{
+      font-size: 1rem;
+      margin-bottom: 10px;
+      white-space: pre-wrap;
+      word-wrap: break-word; 
+  }
+  form button{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 18px;
+    bottom: -18px;
+    background: rgb(248, 126, 26);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgb(0,0,0);
+    cursor: pointer;
+    outline: none;
+    font-size: 32px;
+  
+  }
+  form button:hover{
+    color: rgb(248, 126, 26);
+    background: #fff;
+  }
+  .note button{
+    position: relative;
+    float: right;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    color: rgb(248, 126, 26) ; 
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .note button:hover{
+    color: red;
+  }
+  /* .footer{
+    position: fixed;
+    text-align: center;
+    height: 2.4rem;
+    width: 100%;
+  } */
+  .footer{
+    width: 100%;
+      padding: 9px 19px;
+    box-shadow: 0 0 2px 0 rgb(114, 114, 114);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+  .footer p{
+  
+    font-size: 12px;
+  }
+  .Notearea
+  {
+    min-height: 78vh;
+  }
